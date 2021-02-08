@@ -1,6 +1,6 @@
 from telethon import TelegramClient, events, Button
 import requests
-from sample_config import Config
+    from sample_config import Config
 else:
     from config import Config
 from telethon.errors.rpcerrorlist import UserNotParticipantError
