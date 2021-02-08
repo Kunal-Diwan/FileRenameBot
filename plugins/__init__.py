@@ -14,7 +14,7 @@ async def check_user(id):
         ok = False
     return ok
 
-if CHANNEL.startswith('@'):
+if AUTH_CHANNEL.startswith('@'):
     x = AUTH_CHANNEL.split('@')[1]
     Mai_bOTs = f"https://t.me/{x}"
 else:
