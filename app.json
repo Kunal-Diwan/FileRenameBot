@@ -36,6 +36,10 @@
       "description": "allow only pre-defined users to use this bot",
       "value": ""
     },
+    "AUTH_CHANNEL": {
+      "description": "channel username where the users must join before using the bot",
+      "value": ""
+    },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
       "value": "",
