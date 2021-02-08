@@ -2,6 +2,7 @@ from telethon import TelegramClient, events, Button
 import requests
 from telethon.errors.rpcerrorlist import UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest
+if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
 else:
     from config import Config
