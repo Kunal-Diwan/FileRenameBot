@@ -12,8 +12,8 @@ class Config(object):
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
     #channel username where you want the users to join before using the bot
-    AUTH_CHANNEL = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "").split())
-    # Banned Unwanted Members..
+    AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "")
+   # Banned Unwanted Members..
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
