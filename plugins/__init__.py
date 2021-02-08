@@ -9,7 +9,7 @@ async def check_user(id):
         return True
     ok = True
     try:
-        await done(GetParticipantRequest(channel=CHANNEL, user_id=id))
+        await TelegramClient(GetParticipantRequest(channel=CHANNEL, user_id=id))
         ok = True
     except UserNotParticipantError:
         ok = False
