@@ -1,3 +1,4 @@
+import os
 from telethon import TelegramClient, events, Button
 import requests
 from telethon.errors.rpcerrorlist import UserNotParticipantError
