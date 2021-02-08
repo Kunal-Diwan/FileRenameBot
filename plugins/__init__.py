@@ -7,7 +7,8 @@ if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
 else:
     from config import Config
-
+AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "")
+   
 async def check_user(id):
     if AUTH_CHANNEL is None:     
         return True
