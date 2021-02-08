@@ -81,6 +81,9 @@ async def start(bot, update):
         ),
         reply_to_message_id=update.message_id
     )
+else:
+        msg = Translation.START_TEXT
+        await event.reply("{}\n\nOops! You need to join my channel before using meh!".format(msg), buttons=[Button.url("Join My Channel", url=Mai_bOTs)])
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
