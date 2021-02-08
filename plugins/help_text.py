@@ -27,6 +27,21 @@ else:
 # the Strings used for this "thing"
 from translation import Translation
 
+buttons = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
+                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                ],
+                [
+                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
+                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                ]
+            ]
+        ),
+        reply_to_message_id=update.message_id
+    )
+
 
 
 
@@ -67,20 +82,7 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.first_name),
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
-                ],
-                [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
-                ]
-            ]
-        ),
-        reply_to_message_id=update.message_id
-    )
+        reply_markup=buttons
 else:
     msg = Translation.START_TEXT
     await event.reply("{}\n\nOops! You need to join my channel before using meh!".format(msg), buttons=[Button.url("Join My Channel", url=Mai_bOTs)])
