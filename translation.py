@@ -1,8 +1,8 @@
 class Translation(object):
-    START_TEXT = """ <b> Hi {} , I'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail support!💯</b> \n
+    START_TEXT = """ <b> Hi {} , I'm Mr File renamer. - I can help you to rename your files I also  help you to convert your file into video with permanent thumbnail support . </b> \n
 
 <b>Bot Maintained By: @DevelopedBots </b> \n 
-<b> I Can Also Download/Upload Files From Zee5</b> \n
+<b> I can also download & upload files from Zee5</b> \n
 <b>Do /help for more Details ...</b> \n
 """
 
