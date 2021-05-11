@@ -28,7 +28,7 @@ class Translation(object):
     NO_THUMB_FOUND = "No Thumbnail found"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     IFLONG_FILE_NAME = """You Gotta Be Kidding Me...Decrease The Number Of Letters😆😉"""
-    ABOUT_ME = """<b>ABOUT ME : \n AM AN TELEGRAM SIMPLE FILE RENAMER BOT. \n YOU CAN RENAME TELEGRAM FILES WITH PERMANANT THUMBNAIL SUPPORT ON ME.\n \n ALSO CONVERT FILES TO VIDEOS \n Feedback DEVOLEPEDBOTZ If You Found ME Useful</b>"""
+    ABOUT_ME = """<b>ABOUT ME : \n AM AN TELEGRAM SIMPLE FILE RENAMER BOT. \n YOU CAN RENAME TELEGRAM FILES WITH PERMANANT THUMBNAIL SUPPORT ON ME.\n \n ALSO CONVERT FILES TO VIDEOS \n Feedback @DevelopedBotz If You Found ME Useful</b>"""
     HELP_USER = """DO YOU NEED HELP. NO NEED OF ANY HELP HERE ID YOU HAVE ANY DOUBTS ASK AT SUPPORT GROUP AND ALL COMMANDO ARE HERE. 🤗
     
 1.🔹 <b>Send me any Telegram File.</b> \n
