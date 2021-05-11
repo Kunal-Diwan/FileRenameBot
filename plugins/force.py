@@ -53,12 +53,12 @@ async def text(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🔰UPDATES🔰', url='https://t.me/DevelopedBots'),
-                    InlineKeyboardButton('🔰SUPPORT🔰', url='https://t.me/DevelopedBotz')
+                    InlineKeyboardButton('Updates 🔔', url='https://t.me/DevelopedBots'),
+                    InlineKeyboardButton('Support 📢', url='https://t.me/DevelopedBotz')
                 ],
                 [
-                    InlineKeyboardButton('🔰BOTS STATS🔰', url='https://t.me/DevelopedBots'),
-                    InlineKeyboardButton('🔰DONATE🔰', url='http://www.paypal.me/kunaldiwan1')
+                    InlineKeyboardButton('Source 🖥', url='https://github.com/DevelopedBots/FileRenameBot'),
+                    InlineKeyboardButton('Donate 💸', url='http://www.paypal.me/kunaldiwan1')
                 ]
             ]
         ),
