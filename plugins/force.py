@@ -37,7 +37,7 @@ async def text(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry, You are **B A N N E D**")
+               await update.reply_text(" 😢Sorry, You are **B A N N E D**")
                return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
@@ -57,8 +57,8 @@ async def text(bot, update):
                     InlineKeyboardButton('🔰SUPPORT🔰', url='https://t.me/DevelopedBotz')
                 ],
                 [
-                    InlineKeyboardButton('🔰BOTS STATS🔰', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('🔰Source🔰', url='https://github.com/DevelopedBots/FileRenameBot')
+                    InlineKeyboardButton('🔰BOTS STATS🔰', url='https://t.me/DevelopedBots'),
+                    InlineKeyboardButton('🔰DONATE🔰', url='http://www.paypal.me/kunaldiwan1')
                 ]
             ]
         ),
