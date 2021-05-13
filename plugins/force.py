@@ -55,8 +55,7 @@ async def text(bot, update):
                 [
                     InlineKeyboardButton('Updates 🔔', url='https://t.me/DevelopedBots'),
                     InlineKeyboardButton('Support 📢', url='https://t.me/DevelopedBotz')
-                ],
-                [InlineKeyboardButton(text="🔰MAKE BOT LIKE ME🔰", url="https://youtu.be/OXEbd96-UJw")], 
+              
                 [
                     InlineKeyboardButton('Source 🖥', url='https://github.com/DevelopedBots/FileRenameBot'),
                     InlineKeyboardButton('Donate 💸', url='http://www.paypal.me/kunaldiwan1')
