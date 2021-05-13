@@ -45,7 +45,6 @@ async def text(bot, update):
                 text="**🔰PLEASE JOIN MY UPDATES CHANNEL BEFORE USING ME🔰..**",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
-                    [ InlineKeyboardButton(text="🔰JOIN MY UPDATES CHANNEL🔰", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
