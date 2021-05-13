@@ -26,3 +26,6 @@ AND UPDATES AT [DEVOLEPED BOTS CHANNEL](https://t.me/DevelopedBotz)
                 AND
     [KUNAL DIWAN](https://t.me/Kunaldiwan)     
 
+### YOU CAN DEPLOY THE BOT BY WATCHING A VIDEO.... 
+
+[CLICK HERE BY WATCHING A VIDEO](https://youtu.be/OXEBD96-UJW) 
