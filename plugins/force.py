@@ -39,7 +39,7 @@ async def text(bot, update):
             if user.status == "kicked":
                await update.reply_text(" 😢Sorry, You are **B A N N E D**")
                return
-        except UserNotParticipant:
+         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
                 text="**Please Join My Update Channel Before Using Me..**",
