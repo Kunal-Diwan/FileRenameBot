@@ -52,7 +52,7 @@ async def text(bot, update):
             await update.reply_text(Translation.START_TEXT.format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
             [
-                async def text(bot, update):
+               
                 [
                     InlineKeyboardButton('Updates 🔔', url='https://t.me/DevelopedBots'),
                     InlineKeyboardButton('Support 📢', url='https://t.me/DevelopedBotz')
