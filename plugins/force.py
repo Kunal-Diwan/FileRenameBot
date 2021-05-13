@@ -42,8 +42,10 @@ async def text(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
+                text="**Please Join My Update Channel Before Using Me..**",
                 text="**🔰PLEASE JOIN MY UPDATES CHANNEL BEFORE USING ME🔰..**",
                 reply_markup=InlineKeyboardMarkup([
+                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
                     [ InlineKeyboardButton(text="🔰JOIN MY UPDATES CHANNEL🔰", url=f"https://t.me/{update_channel}")]
               ])
             )
@@ -52,16 +54,13 @@ async def text(bot, update):
             await update.reply_text(Translation.START_TEXT.format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
             [
-               
                 [
-                    InlineKeyboardButton('Updates 🔔', url='https://t.me/DevelopedBots'),
-                    InlineKeyboardButton('Support 📢', url='https://t.me/DevelopedBotz')
+                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
+                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
                 ],
-              
-
                 [
-                    InlineKeyboardButton('Source 🖥', url='https://github.com/DevelopedBots/FileRenameBot'),
-                    InlineKeyboardButton('Donate 💸', url='http://www.paypal.me/kunaldiwan1')
+                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
+                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
                 ]
             ]
         ),
