@@ -20,8 +20,7 @@ AND UPDATES AT [DEVOLEPED BOTS CHANNEL](https://t.me/DevelopedBotz)
 [@MrFilesRenamer_Bot](https://t.me/MrFilesRenamer_Bot) 
 
 ### BOTS ARE MAINTAINED BY
-    [ജിന്ന്](https://t.me/JINN_OF_TG) 
-                AND
+      
     [KUNAL DIWAN](https://t.me/Kunaldiwan)     
 
 
