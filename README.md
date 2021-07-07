@@ -19,8 +19,7 @@ AND UPDATES AT [DEVOLEPED BOTS CHANNEL](https://t.me/DevelopedBotz)
 
 [@MrFilesRenamer_Bot](https://t.me/MrFilesRenamer_Bot) 
 
-### BOTS ARE MAINTAINED BY
-      
-    [KUNAL DIWAN](https://t.me/Kunaldiwan)     
+##### BOTS ARE MAINTAINED BY [@Kunaldiwan](https://t.me/KunalDiwan) .
+          
 
 
